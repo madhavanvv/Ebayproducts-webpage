@@ -1,0 +1,132 @@
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Poppins;
+}
+.nav-items {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.nav-item {
+  color: #343a40;
+}
+.active-item {
+  color: #fe5e35;
+}
+.top-icons {
+  height: 80px;
+  position: relative;
+  left: 40px;
+}
+.intro-section {
+  display: flex;
+  flex-direction: row;
+}
+.dots {
+  display: flex;
+  flex-direction: flex;
+
+  margin-right: 20px;
+}
+.tomato-dot {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.headphone-div {
+  position: relative;
+}
+.discount {
+  width: 150px;
+  position: absolute;
+  top: 280px;
+  left: -40px;
+}
+.discount-content {
+  position: absolute;
+  top: 300px;
+  left: -20px;
+  line-height: 0.1;
+  font-family: "Fredoka One";
+  font-style: normal;
+  color: white;
+  font-weight: 100;
+}
+.discount-content h4 {
+  position: relative;
+  left: 20px;
+  font-weight: 100;
+}
+.discount-content h1 {
+  font-size: 55px;
+  font-weight: 100;
+}
+.headphonecla {
+  width: 500px;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative;
+  left: 100px; */
+}
+.action-btn {
+  background-color: #fe5e35;
+  border: none;
+  color: white;
+  font-family: "Poppins";
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.left-section {
+  font-family: "Poppins";
+  font-weight: 400;
+  margin-top: 90px;
+}
+.left-section h1 {
+  font-family: "Fredoka One";
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+}
+.left-section h3 {
+  font-size: 30px;
+
+  margin: 0;
+  margin-bottom: 10px;
+}
+.left-section h3 img {
+  width: 50px;
+  position: relative;
+  top: 5px;
+}
+.sub-headlines {
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 50px;
+}
+.sub-headlines img {
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+.text {
+  margin-top: 60px;
+  margin-bottom: 36px;
+  color: #e8e8e4;
+  width: 590px;
+  font-size: 12px;
+}
