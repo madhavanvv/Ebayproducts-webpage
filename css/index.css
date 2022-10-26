@@ -4,18 +4,19 @@ body {
 }
 .top-nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   font-family: Poppins;
 }
 .nav-items {
   flex-grow: 1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   padding-left: 150px;
   padding-right: 150px;
+  gap: 20px;
 }
 .nav-item {
   color: #343a40;
@@ -26,7 +27,6 @@ body {
 .top-icons {
   height: 80px;
   position: relative;
-  left: 40px;
 }
 .intro-section {
   display: flex;
@@ -129,4 +129,24 @@ body {
   color: #e8e8e4;
   width: 590px;
   font-size: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins;
+  }
+
+  .nav-items {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 20px;
+  }
 }
